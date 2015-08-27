@@ -2,6 +2,11 @@
 
 Adguard is the world's most advanced web filter and ad blocker for Android. It not only removes ads from browsers and applications on your smartphone/tablet, but also features such tools as firewall and phishing protection. Adguard gives you options of running it either in VPN or HTTP proxy mode, allowing to use it even without ROOT access. It immediately starts to filter all your traffic right after installation. 
 
+![1_size5_n](https://cloud.githubusercontent.com/assets/5947035/9525988/8567ac0c-4cef-11e5-933d-debdc8961eaf.png)
+![2_size5_n](https://cloud.githubusercontent.com/assets/5947035/9525989/870cc3e4-4cef-11e5-8054-99a7babd5a89.png)
+![3_size5_n](https://cloud.githubusercontent.com/assets/5947035/9525990/881678de-4cef-11e5-8dc9-0b84f4d85fc7.png)
+
+
 ### How to get Adguard for Android?  
 Adguard for Android can be downloaded from official website:
 http://adguard.com
