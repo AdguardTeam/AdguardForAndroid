@@ -19,3 +19,9 @@ https://adguard.com/apk
 To see the 'big picture', watch current progress and get an idea of approximate dates for Android releases, see this page: https://github.com/AdguardTeam/AdguardForAndroid/milestones
 
 If you want to see what's in our nearest plans, or would like to submit a new bug/feature request, you can do it here: https://github.com/AdguardTeam/AdguardForAndroid/issues
+
+### Releases
+
+Latest version: 2.0.106
+
+Adguard versions: https://github.com/AdguardTeam/AdguardForAndroid/releases
