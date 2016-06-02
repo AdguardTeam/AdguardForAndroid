@@ -26,6 +26,6 @@ If you want to see what's in our nearest plans, or would like to submit a new bu
 ### Releases
 
 * Latest stable version: [2.1.196](https://github.com/AdguardTeam/AdguardForAndroid/releases/tag/v2.1.196)
-* Latest beta version: [2.6.23 beta](https://github.com/AdguardTeam/AdguardForAndroid/releases/tag/v2.6.23-beta)
+* Latest beta version: [2.6.67 beta](https://github.com/AdguardTeam/AdguardForAndroid/releases/tag/v2.6.67-beta)
 
 Adguard versions: https://github.com/AdguardTeam/AdguardForAndroid/releases
