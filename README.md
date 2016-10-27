@@ -1,7 +1,7 @@
 # Adguard for Android
-
-> **Disclaimer**
-> Adguard for Android is not an open source project. We use github as an open bug tracker for users to see what developers are working on.
+>
+## Disclaimer
+###Adguard for Android is not an open source project. We use GitHub as an open bug tracker for users to see what developers are working on.
 
 Adguard is the world's most advanced web filter and ad blocker for Android. It not only removes ads from browsers and applications on your smartphone/tablet, but also features such tools as firewall and phishing protection. Adguard gives you options of running it either in VPN or HTTP proxy mode, allowing to use it even without ROOT access. It immediately starts to filter all your traffic right after installation. 
 
@@ -12,7 +12,7 @@ Adguard is the world's most advanced web filter and ad blocker for Android. It n
 
 ### How to get Adguard for Android?  
 Adguard for Android can be downloaded from official website:
-http://adguard.com
+https://adguard.com
 
 Or directly by this link: 
 https://adguard.com/apk 
