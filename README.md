@@ -17,6 +17,10 @@ https://adguard.com
 Or directly by this link: 
 https://adguard.com/apk 
 
+### How to become a beta tester?
+
+All information related to Adguard beta testing is collected in this [blog article](https://blog.adguard.com/en/adguard-beta-test/).
+
 ### Our plans
 
 To see the 'big picture', watch current progress and get an idea of approximate dates for Android releases, see this page: https://github.com/AdguardTeam/AdguardForAndroid/milestones
