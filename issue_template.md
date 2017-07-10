@@ -25,10 +25,8 @@
 </details>
 
 
-### Adguard log files
-<!--- Send us a diagnostic report through the application, press "Send Feedback" in the side menu-->
-
 ### Customer ID 
+<!--- Send us a diagnostic report through the application, choose "Send Feedback" in the side menu of the app-->
 <!--- You will get an autoreply with you Customer ID after sending a report -->
 
 ### Your environment
