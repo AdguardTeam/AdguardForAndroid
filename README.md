@@ -24,7 +24,7 @@ To see the 'big picture', to watch current progress and to get an idea of approx
 ### Releases
 
 * Latest stable version: [2.10.108](https://github.com/AdguardTeam/AdguardForAndroid/releases/tag/v2.10.108)
-* Latest beta: [2.10.155](https://github.com/AdguardTeam/AdguardForAndroid/releases/tag/2.10.155-rc)
+* Latest beta: [2.10.164](https://github.com/AdguardTeam/AdguardForAndroid/releases/tag/v2.10.164-rc)
 
 You can find all AdGuard for Android releases here: https://github.com/AdguardTeam/AdguardForAndroid/releases
 
