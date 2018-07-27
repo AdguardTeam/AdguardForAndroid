@@ -25,6 +25,7 @@ To see the 'big picture', to watch current progress and to get an idea of approx
 
 * Latest stable version: [2.11.81](https://github.com/AdguardTeam/AdguardForAndroid/releases/tag/v2.11.81)
 * Latest beta version: same as the release
+* Latest nightly version available [here](https://agrd.io/android_nightly)
 
 You can find all AdGuard for Android releases here: https://github.com/AdguardTeam/AdguardForAndroid/releases
 
