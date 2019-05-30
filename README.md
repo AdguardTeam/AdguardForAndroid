@@ -23,7 +23,7 @@ To see the 'big picture', to watch current progress and to get an idea of approx
 
 ### Releases
 
-* Latest stable version: [3.0.297](https://github.com/AdguardTeam/AdguardForAndroid/releases/tag/v3.0.297)
+* Latest stable version: [3.1.0](https://github.com/AdguardTeam/AdguardForAndroid/releases/tag/v3.1.0)
 * Latest beta version: [3.1.0](https://github.com/AdguardTeam/AdguardForAndroid/releases/tag/v3.1.0-beta)
 * Latest nightly version available [here](https://agrd.io/android_nightly)
 
