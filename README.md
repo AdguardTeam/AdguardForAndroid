@@ -1,4 +1,29 @@
-# AdGuard for Android
+&nbsp;
+<p align="center">
+  <img src="https://cdn.adguard.com/public/Adguard/Common/Logos/andr.svg" width="300px" alt="AdGuard Browser Extension"
+ />
+  </p>
+<h3 align="center">Ad blocker with advanced privacy protection features</h3>
+<p align="center">
+  AdGuard is a fast and lightweight ad blocking Android application<br/>that effectively blocks all types of ads and trackers.
+</p>
+  
+  <p align="center">
+    <a href="https://adguard.com/">AdGuard.com</a> |
+    <a href="https://reddit.com/r/Adguard">Reddit</a> |
+    <a href="https://twitter.com/AdGuard">Twitter</a> |
+    <a href="https://t.me/adguard_en">Telegram</a>
+    <br /><br />
+    <a href="https://travis-ci.org/AdguardTeam/AdguardBrowserExtension">
+      <img src="https://travis-ci.org/AdguardTeam/AdguardBrowserExtension.svg?branch=master" alt="Build status">
+    </a>
+    <a href="https://github.com/AdguardTeam/AdguardBrowserExtension/releases">
+        <img src="https://img.shields.io/badge/release-v3.0.1-blue.svg" alt="Latest release" />
+    </a>
+</p>
+
+<br />
+
 > ### Disclaimer
 > * AdGuard for Android is not an open source project. We use GitHub as an open bug tracker for users to see what developers are working on.
 > * Privacy policy: https://adguard.com/privacy.html#android (Briefly: AdGuard sends only necessary, limited information, e.g. information required for a license check).
