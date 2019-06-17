@@ -14,10 +14,9 @@
     <a href="https://twitter.com/AdGuard">Twitter</a> |
     <a href="https://t.me/adguard_en">Telegram</a>
     <br /><br />
-    <a href="https://travis-ci.org/AdguardTeam/AdguardBrowserExtension">
-      <img src="https://travis-ci.org/AdguardTeam/AdguardBrowserExtension.svg?branch=master" alt="Build status">
+    <a
     </a>
-    <a href="https://github.com/AdguardTeam/AdguardBrowserExtension/releases">
+    <a href="https://github.com/AdguardTeam/AdGuardforAndroid/releases">
         <img src="https://cdn.adguard.com/public/Adguard/Common/r310.svg" alt="Latest release" />
     </a>
 </p>
