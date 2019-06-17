@@ -5,7 +5,7 @@
   </p>
 <h3 align="center">Ad blocker with advanced privacy protection features</h3>
 <p align="center">
-  AdGuard is a fast and lightweight ad blocking Android application<br/>that effectively blocks all types of ads and trackers.
+    AdGuard is a unique no root ad blocker for Android that removes ads in apps and browsers,<br/> protects your privacy, and helps you manage your apps
 </p>
   
   <p align="center">
@@ -18,7 +18,7 @@
       <img src="https://travis-ci.org/AdguardTeam/AdguardBrowserExtension.svg?branch=master" alt="Build status">
     </a>
     <a href="https://github.com/AdguardTeam/AdguardBrowserExtension/releases">
-        <img src="https://img.shields.io/badge/release-v3.0.1-blue.svg" alt="Latest release" />
+        <img src="https://cdn.adguard.com/public/Adguard/Common/r310.svg" alt="Latest release" />
     </a>
 </p>
 
