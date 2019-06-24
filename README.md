@@ -24,7 +24,7 @@
 <br />
 
 > ### Disclaimer
-> * AdGuard for Android is not an open source project. We use GitHub as an open bug tracker for users to see what developers are working on.
+> * AdGuard for Android is not an open source project. We use GitHub as an open bug tracker for users to see what developers are working on. However, we at AdGuard create a lot of open source software.
 > * Privacy policy: https://adguard.com/privacy.html#android (Briefly: AdGuard sends only necessary, limited information, e.g. information required for a license check).
 
 AdGuard is a unique tool that blocks ads in apps and browsers even without ROOT privileges, protects your privacy, and helps you manage your apps. AdGuard gives you options of running it either VPN or HTTP proxy mode and allows to set up custom DNS settings (with DNSCrypt support).
