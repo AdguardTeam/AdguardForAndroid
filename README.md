@@ -26,7 +26,6 @@
 * [Contribution](#contribution)
   * [How to report an issue](#issue)
   * [Translating AdGuard](#contribution-translating)
-  * [Testing AdGuard](#contribution-testing)
   * [Other options](#contribution-other)
    * [How to become a Beta tester](#beta-tester)
    * [Our plans](#our-plans)
@@ -60,11 +59,6 @@ GitHub can be used to report a bug or to submit a feature request. To do so, go 
 ### Translating AdGuard
 
 If you want to help with AdGuard translations, please learn more about translating our products here: https://kb.adguard.com/en/general/adguard-translations
-
-<a id="contribution-testing"></a>
-### Testing AdGuard
-
-You can get a beta version of AdGuard Browser Extension for any browser. All necessary information on this topic can be found on a [dedicated page on our website](https://adguard.com/beta.html).
 
 <a id="contribution-other"></a>
 ### Other options
