@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.adguard.com/public/Adguard/Common/Logos/andr.svg" width="300px" alt="AdGuard Browser Extension"
+  <img src="https://cdn.adguard.com/public/Adguard/Common/Logos/andr.svg" width="300px" alt="AdGuard for Android"
  />
   </p>
 <h3 align="center">Ad blocker with advanced privacy protection features</h3>
@@ -27,13 +27,13 @@
   * [How to report an issue](#issue)
   * [Translating AdGuard](#contribution-translating)
   * [Other options](#contribution-other)
-   * [How to become a Beta tester](#beta-tester)
-   * [Our plans](#our-plans)
+  * [How to become a Beta tester](#beta-tester)
+* [Our plans](#our-plans)
 
 ### Disclaimer
 
 > Disclaimer
-> AdGuard for Windows is not an open source project. We use GitHub as an open bug tracker for users to see what developers are working on. However, we at AdGuard create [a lot of open source software](https://github.com/search?o=desc&q=topic%3Aopen-source+org%3AAdguardTeam+fork%3Atrue&s=stars&type=Repositories).
+> AdGuard for Android is not an open source project. We use GitHub as an open bug tracker for users to see what developers are working on. However, we at AdGuard create [a lot of open source software](https://github.com/search?o=desc&q=topic%3Aopen-source+org%3AAdguardTeam+fork%3Atrue&s=stars&type=Repositories).
 > Privacy policy: https://adguard.com/privacy/android.html (Briefly: AdGuard sends only necessary, limited information, e.g. information required for a license check).
 
 
@@ -53,7 +53,7 @@ To get more information and to download AdGuard for Android, visit our website [
 
 GitHub can be used to report a bug or to submit a feature request. To do so, go to [this page](https://github.com/AdguardTeam/AdguardForAndroid/issues) and click the *New issue* button.
 
->**Note:** for the filter-related issues (missed ads, false positives etc.) use the [dedicated repository](https://github.com/AdguardTeam/AdguardFilters). 
+>**Note:** for the filter-related issues (missed ads, false positives etc.) use our [reporting tool](https://reports.adguard.com/new_issue.html).
 
 <a id="contribution-translating"></a>
 ### Translating AdGuard
@@ -72,6 +72,6 @@ Here is a [dedicated page](https://adguard.com/contribute.html) for those who ar
 You can submit an application to participate in AdGuard for Android beta-testing program. All necessary information on this topic can be found on the [dedicated page](https://adguard.com/beta.html).
 
 <a id="our-plans"></a>
-### Our plans
+## Our plans
 
 To see the 'big picture', to watch current progress and to get an idea of approximate dates for upcoming AdGuard for Android releases, see this page: https://github.com/AdguardTeam/AdguardForAndroid/milestones
