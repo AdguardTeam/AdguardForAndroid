@@ -2,7 +2,7 @@
   <img src="https://cdn.adguard.com/public/Adguard/Common/Logos/andr.svg" width="300px" alt="AdGuard for Android"
  />
   </p>
-<h3 align="center">Ad blocker with advanced privacy protection features</h3>
+<h3 align="center">The most advanced system-wide content blocker for Android</h3>
 <p align="center">
   All-round protection from all kinds of online ads, tracking and malvertising.
 </p>
