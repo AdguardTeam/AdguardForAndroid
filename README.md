@@ -19,7 +19,7 @@
         <img src="https://img.shields.io/badge/release-v3.1.0-blue.svg" alt="Latest release" />
     </a>
     <a href="https://github.com/AdguardTeam/AdguardForAndroid/releases/tag/v3.1.0-beta">
-    <img src="https://img.shields.io/badge/beta-v3.1.0-yellow.svg" alt="Beta version>" />
+    <img src="https://img.shields.io/badge/beta-v3.2.98-yellow.svg" alt="Beta version>" />
     </a>
 
 
