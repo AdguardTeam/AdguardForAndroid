@@ -19,7 +19,7 @@ Please answer the following questions for yourself before submitting an issue. *
   - <!-- (e.g. v3.2.1) -->
 - **Filtering mode:**
   - <!-- (e.g. Local VPN / HTTP Proxy (Auto/Manual)) -->
-- **Filtering mode:**
+- **Device:**
   - <!-- (e.g. Google Pixel 3 XL) -->
 - **Operating system and version:**
   - <!-- (e.g. Android 7.1.2) -->
