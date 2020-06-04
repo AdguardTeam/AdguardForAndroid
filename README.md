@@ -38,7 +38,9 @@ AdGuard is a unique tool that blocks ads in apps and browsers even without ROOT 
 
 To get more information and to download AdGuard for Android, visit our website [https://adguard.com/](https://adguard.com/adguard-android/overview.html).
 
-<image src="https://cdn.adguard.com/public/Adguard/screenshots/android/adguard_main.png" width="250"> <image src="https://cdn.adguard.com/public/Adguard/screenshots/android/adguard_apps.png" width="250"> <image src="https://cdn.adguard.com/public/Adguard/screenshots/android/adguard_settings.png" width="250">
+![android_main_en](https://user-images.githubusercontent.com/8577533/55413590-4728ce00-5572-11e9-987c-7b99e47393f5.png)
+![chart_en](https://user-images.githubusercontent.com/8577533/55413641-61fb4280-5572-11e9-92e8-0a54e0f8ed45.png)
+![settings_dark_en](https://user-images.githubusercontent.com/8577533/55413663-6d4e6e00-5572-11e9-9c5e-2562b3be6e2e.png)
 
 <a id="contribution"></a>
 ## Contribution
