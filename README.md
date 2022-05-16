@@ -15,11 +15,11 @@
     <br /><br />
     <a
     </a>
-    <a href="https://github.com/AdguardTeam/AdGuardforAndroid/releases">
+    <a href="https://github.com/AdguardTeam/AdguardForAndroid/releases">
         <img src="https://img.shields.io/github/tag/AdguardTeam/AdguardForAndroid.svg?label=release" alt="Latest release" />
     </a>
-    <a href="https://github.com/AdguardTeam/AdguardForAndroid/releases/">
-    <img src="https://img.shields.io/github/tag-pre/AdguardTeam/AdguardForAndroid.svg?label=beta" alt="Beta version>" />
+    <a href="https://github.com/AdguardTeam/AdguardForAndroid/releases">
+        <img src="https://img.shields.io/github/tag-pre/AdguardTeam/AdguardForAndroid.svg?label=beta" alt="Beta version>" />
     </a>
 
 
