@@ -13,6 +13,9 @@
     <a href="https://twitter.com/AdGuard">Twitter</a> |
     <a href="https://t.me/adguard_en">Telegram</a>
     <br /><br />
+    <a href="https://github.com/AdguardTeam/AdguardForAndroid/issues?q=is%3Aopen+label%3A%22Feature+request%22+sort%3Areactions-%2B1-desc">
+        <img src="https://img.shields.io/github/issues-search/AdguardTeam/AdguardForAndroid?color=%2358A459&label=%F0%9F%9A%80%20Feature%20requests&query=is%3Aopen%20label%3A%22Feature%20request%22%20sort%3Areactions-%2B1-desc" />
+    </a>
     <a
     </a>
     <a href="https://github.com/AdguardTeam/AdguardForAndroid/releases">
