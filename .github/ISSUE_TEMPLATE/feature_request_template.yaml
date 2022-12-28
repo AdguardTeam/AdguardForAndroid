@@ -1,0 +1,30 @@
+---
+
+name: 🌱 Feature request
+description: Create a feature request to help us improve AdGuard for Android.
+labels: []
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Issue Details
+      description: What happened?
+      placeholder: Is your feature request related to a problem? Please add a clear and concise description of what the problem is.
+    validations:
+      required: false
+  - type: textarea
+    id: how_it_should_be
+    attributes:
+      label: Proposed solution
+      description:
+      placeholder: Describe the solution you'd like in a clear and concise manner.
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Alternative solution
+      description:
+      placeholder: A clear and concise description of any alternative solutions or features you've considered.
+    validations:
+      required: false
