@@ -40,7 +40,7 @@ body:
           - Firmware:
       render: markdown
     validations:
-      required: false
+      required: true
   - type: checkboxes
     attributes:
       label: Root access
