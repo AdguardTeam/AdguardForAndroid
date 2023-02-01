@@ -53,9 +53,13 @@ body:
     id: filters
     attributes:
       label: What filters do you have enabled?
-      description: Select enabled filters from the list. You can skip this step if it's not relevant.
+      description: |
+        Select enabled filters from the list if they are related to the application bug.
+        If the issue is related to the filtering (missed ads, cookie, etc.)
+        use the [Web Reporting Tool](https://kb.adguard.com/en/technical-support/reporting-tool) please.
       multiple: true
       options:
+        - No filters
         - AdGuard Base filter
         - AdGuard Mobile Ads filter
         - AdGuard Chinese filter
@@ -70,6 +74,11 @@ body:
         - AdGuard URL Tracking filter
         - AdGuard Social Media filter
         - AdGuard Annoyances filter
+        - AdGuard Cookie Notices filter
+        - AdGuard Popups filter
+        - AdGuard Mobile App Banners filter
+        - AdGuard Widgets filter
+        - AdGuard Other Annoyances filter
         - AdGuard DNS filter
         - AdGuard Experimental filter
         - Filter unblocking search ads and self-promotion
@@ -101,24 +110,18 @@ body:
         - Xfiles
         - Adblock Warning Removal List
         - Online Malicious URL Blocklist
-        - Spam404
         - RU AdList - Counters
         - ABPVN List
         - Fanboy's Enhanced Tracking List
         - Official Polish filters for AdBlock, uBlock Origin & AdGuard
         - Polish GDPR-Cookies Filters
         - Estonian List
-        - ChinaList+EasyList
         - CJX's Annoyances List
         - Polish Social Filters
-        - Adblock-Persian list
-        - Fanboy's Swedish
         - Fanboy's Anti-Facebook List
-        - Fanboy's Vietnamese
         - List-KR
         - xinggsf
         - I don't care about cookies
-        - Fanboy's Spanish\/Portuguese
         - EasyList Spanish
         - KAD - Anti-Scam
         - Adblock List for Finland
@@ -128,7 +131,6 @@ body:
         - Polish Annoyances Filters
         - Polish Anti Adblock Filters
         - Fanboy's Anti-thirdparty Fonts
-        - BarbBlock
         - EasyList Cookie List
         - NoCoin Filter List
         - Frellwit's Swedish Filter
@@ -139,6 +141,8 @@ body:
         - Dandelion Sprout's Nordic Filters
         - Dandelion Sprout's Annoyances List
         - Legitimate URL Shortener
+        - Dandelion Sprout's Serbo-Croatian List
+        - IndianList
         - Others
     validations:
       required: false
@@ -173,8 +177,13 @@ body:
     id: what-happened
     attributes:
       label: Issue Details
-      description: What happened?
-      placeholder: Please describe the steps to reproduce the issue you've experienced.
+      description: Please provide a set of steps to reproduce the issue.
+      placeholder:
+      value: |
+        Steps to reproduce:
+        1.
+        2.
+        3.
     validations:
       required: true
   - type: textarea
@@ -186,11 +195,28 @@ body:
     validations:
       required: false
   - type: textarea
+    id: how_it_is
+    attributes:
+      label: Actual Behavior
+      description:
+      placeholder: A clear description of what happened instead.
+    validations:
+      required: true
+  - type: textarea
     id: screens
     attributes:
       label: Screenshots
-      description:
+      description: |
+        If applicable add screenshots explaining your problem.
+        You can drag and drop images or paste them from clipboard.
+        Use `<details> </details>` tag to hide screenshots under the spoiler.
       placeholder: If applicable add screenshots explaining your problem.
+      value: |
+          <details><summary>Screenshot 1:</summary>
+
+          <!-- paste screenshot here -->
+
+          </details>
     validations:
       required: false
   - type: textarea
