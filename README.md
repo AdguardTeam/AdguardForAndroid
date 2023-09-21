@@ -1,7 +1,9 @@
 <p align="center">
-  <img src="https://cdn.adguard.com/public/Adguard/Common/Logos/andr.svg" width="300px" alt="AdGuard for Android"
- />
-  </p>
+  <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.adguard.com/public/Adguard/Common/Logos/andr_dark.svg" width="300px" alt="AdGuard for Adndroid" />
+   <img src="https://cdn.adguard.com/public/Adguard/Common/Logos/andr.svg" width="300px" alt="AdGuard for Android" />
+ </picture>
+</p>
 <h3 align="center">The most advanced system-wide content blocker for Android</h3>
 <p align="center">
   All-round protection from all kinds of online ads, tracking and malvertising.
@@ -52,7 +54,20 @@ AdGuard is a unique tool that blocks ads in apps and browsers even without ROOT 
 
 To get more information and to download AdGuard for Android, visit our website [https://adguard.com/](https://adguard.com/adguard-android/overview.html).
 
-<image src="https://cdn.adguard.com/content/github/ad_blocker/android/home4.1.png" width="250"> <image src="https://cdn.adguard.com/content/github/ad_blocker/android/protection4.1.png" width="250"> <image src="https://cdn.adguard.com/content/github/ad_blocker/android/settings4.1.png" width="250">
+<p align="center">
+<picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.adguard.com/content/github/ad_blocker/android/dark_home4.1.png" width="250">
+   <img src="https://cdn.adguard.com/content/github/ad_blocker/android/home4.1.png" width="250">
+ </picture>
+<picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.adguard.com/content/github/ad_blocker/android/dark_protection4.1.png" width="250">
+   <img src="https://cdn.adguard.com/content/github/ad_blocker/android/protection4.1.png" width="250">
+ </picture>
+<picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.adguard.com/content/github/ad_blocker/android/dark_settings4.1.png" width="250">
+   <img src="https://cdn.adguard.com/content/github/ad_blocker/android/settings4.1.png" width="250">
+ </picture>
+</p>
 
 <a id="contribution"></a>
 ## Contribution
