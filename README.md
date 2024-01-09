@@ -15,11 +15,11 @@
     <a href="https://twitter.com/AdGuard">Twitter</a> |
     <a href="https://t.me/adguard_en">Telegram</a>
     <br /><br />
-    <a href="https://github.com/AdguardTeam/AdguardForAndroid/issues?q=is%3Aopen+label%3A%22Version%3A+AdGuard+v4.3%22+sort%3Acreated-desc">
-        <img src="https://img.shields.io/github/issues-search/AdguardTeam/AdguardForAndroid?color=red&label=%F0%9F%90%9B%20Open%20bugs&query=is%3Aopen%20label%3A%22Version%3A%20AdGuard%20v4.3%22%20sort%3Acreated-desc" />
+    <a href="https://github.com/AdguardTeam/AdguardForAndroid/issues?q=is%3Aopen+label%3A%22Version%3A+AdGuard+v4.4%22+sort%3Acreated-desc">
+        <img src="https://img.shields.io/github/issues-search/AdguardTeam/AdguardForAndroid?color=red&label=%F0%9F%90%9B%20Open%20bugs&query=is%3Aopen%20label%3A%22Version%3A%20AdGuard%20v4.4%22%20sort%3Acreated-desc" />
     </a>
-    <a href="https://github.com/AdguardTeam/AdguardForAndroid/issues?q=is%3Aopen+label%3A%22Version%3A+AdGuard+v4.3%22+label%3A%22Status%3A+Resolved%22+sort%3Acreated-desc">
-        <img src="https://img.shields.io/github/issues-search/AdguardTeam/AdguardForAndroid?color=yellow&label=Resolved&query=is%3Aopen%20label%3A%22Version%3A%20AdGuard%20v4.3%22%20label%3A%22Status%3A%20Resolved%22%20sort%3Acreated-desc" />
+    <a href="https://github.com/AdguardTeam/AdguardForAndroid/issues?q=is%3Aopen+label%3A%22Version%3A+AdGuard+v4.4%22+label%3A%22Status%3A+Resolved%22+sort%3Acreated-desc">
+        <img src="https://img.shields.io/github/issues-search/AdguardTeam/AdguardForAndroid?color=yellow&label=Resolved&query=is%3Aopen%20label%3A%22Version%3A%20AdGuard%20v4.4%22%20label%3A%22Status%3A%20Resolved%22%20sort%3Acreated-desc" />
     </a>
     <br />
     <a href="https://github.com/AdguardTeam/AdguardForAndroid/issues?q=is%3Aopen+label%3A%22Feature+request%22+sort%3Areactions-%2B1-desc">
