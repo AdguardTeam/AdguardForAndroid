@@ -1,0 +1,28 @@
+---
+
+name: ❓ Question
+description: Create a feature request to help us improve AdGuard for Android.
+labels: ['Question']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this form!
+  - type: checkboxes
+    attributes:
+      label: Please answer the following questions for yourself before submitting a question.
+      description: |
+      options:
+        - label: I am running the latest version
+        - label: I checked the [knowledgebase](https://adguard.com/kb/) and found no answer
+        - label: I checked to make sure that this issue has not already been filed
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Ask a question
+      description: |
+      placeholder: If you want to know more about how the app works.
+    validations:
+      required: true

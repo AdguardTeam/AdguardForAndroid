@@ -1,7 +1,7 @@
 ---
 
 name: 🐞 Bug report
-description: Create a bug report to help us improve AdGuard for Android.
+description: If you found something that we should know about
 labels: [Bug]
 body:
   - type: markdown

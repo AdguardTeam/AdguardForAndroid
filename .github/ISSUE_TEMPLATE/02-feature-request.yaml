@@ -1,7 +1,7 @@
 ---
 
 name: 🌱 Feature request
-description: Create a feature request to help us improve AdGuard for Android.
+description: If you know how AdGuard for Android can be improved
 labels: ['Feature request']
 body:
   - type: textarea
