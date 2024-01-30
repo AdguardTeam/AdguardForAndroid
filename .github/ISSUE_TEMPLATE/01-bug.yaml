@@ -13,9 +13,12 @@ body:
       label: Please answer the following questions for yourself before submitting an issue.
       description: |
       options:
-        - label: I am running the latest version
+        - label: Filters were updated before reproducing an issue
+          required: true
         - label: I checked the [knowledgebase](https://adguard.com/kb/) and found no answer
+          required: true
         - label: I checked to make sure that this issue has not already been filed
+          required: true
     validations:
       required: true
   - type: input
@@ -32,7 +35,7 @@ body:
       description: |
         examples:
           - **OS version**: Android 14
-          - **Device**: Huawei 
+          - **Device**: Huawei P50 Pro 
       value: |
           - OS version:
           - Device:
@@ -45,7 +48,7 @@ body:
       label: HTTPS filtering
       description: Do you have HTTPS filtering enabled?
       options:
-        - label: Yes, I do.
+        - label: yes, I do
     validations:
       required: false
 
@@ -229,7 +232,7 @@ body:
   - type: dropdown
     id: dns_protection
     attributes:
-      label: What DNS server do you have?
+      label: Which DNS server do you use?
       description: |
       multiple: false
       options:
@@ -253,7 +256,7 @@ body:
     id: custom_dns
     attributes:
       label: Custom DNS
-      description: Please provide a link to custom DNS you are using 
+      description: Please provide a link to the custom DNS you use
     validations:
       required: false
 
@@ -269,6 +272,8 @@ body:
         - DNS-over-HTTPS
         - DNS-over-TLS
         - DNS-over-QUIC
+    validations:
+      required: false
 
   - type: dropdown
     id: stealth
