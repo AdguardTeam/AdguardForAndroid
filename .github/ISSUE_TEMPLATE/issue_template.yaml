@@ -14,7 +14,7 @@ body:
       description:
       options:
         - label: I am running the latest version
-        - label: I checked the documentation and found no answer
+        - label: I checked the [knowledgebase](https://adguard.com/kb/) and found no answer
         - label: I checked to make sure that this issue has not already been filed
     validations:
       required: true
@@ -23,7 +23,7 @@ body:
     attributes:
       label: AdGuard version
       description: What version of our application are you running?
-      placeholder: For example, 3.6.10
+      placeholder: For example, 4.3.1
     validations:
       required: true
   - type: textarea
@@ -31,16 +31,24 @@ body:
       label: Environment
       description: |
         examples:
-          - **OS**: Android 11
-          - **Device**: Huawei
-          - **Firmware**: INE-L21
+          - **OS version**: Android 14
+          - **Device**: Huawei 
       value: |
-          - OS:
+          - OS version:
           - Device:
-          - Firmware:
       render: markdown
     validations:
       required: true
+
+  - type: checkboxes
+    attributes:
+      label: HTTPS filtering
+      description: Do you have HTTPS filtering enabled?
+      options:
+        - label: Yes, I do.
+    validations:
+      required: false
+
   - type: checkboxes
     attributes:
       label: Root access
@@ -49,19 +57,106 @@ body:
         - label: Yes, I have it.
     validations:
       required: false
+
   - type: dropdown
-    id: filters
+    id: routing_mode
     attributes:
-      label: What filters do you have enabled?
-      description: |
-        Select enabled filters from the list if they are related to the application bug.
+      label: Routing mode
+      multiple: false
+      options:
+        - Local VPN
+        - Automatic proxy
+        - Manual proxy
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "### What filters do you have enabled?"
+
+  - type: markdown
+    attributes:
+      value: |
+        Select enabled filters if they are related to the application bug.
         If the issue is related to the filtering (missed ads, cookie, etc.)
-        use the [Web Reporting Tool](https://kb.adguard.com/en/technical-support/reporting-tool) please.
+        use the [Web Reporting Tool](https://kb.adguard.com/technical-support/reporting-tool) please.
+
+  - type: dropdown
+    id: filters_adblock
+    attributes:
+      label: Ad Blocking
       multiple: true
       options:
-        - No filters
         - AdGuard Base filter
         - AdGuard Mobile Ads filter
+        - EasyList
+    validations:
+      required: true
+
+  - type: dropdown
+    id: filters_privacy
+    attributes:
+      label: Privacy
+      multiple: true
+      options:
+        - AdGuard Tracking Protection filter
+        - AdGuard URL Tracking filter
+        - EasyPrivacy
+        - Legitimate URL Shortener
+        - Peter Lowe's Blocklist
+        - Fanboy's Anti-Facebook List
+        - Fanboy's Anti-thirdparty Fonts
+    validations:
+      required: false
+
+  - type: dropdown
+    id: filters_social
+    attributes:
+      label: Social
+      multiple: true
+      options:
+        - AdGuard Social Media filter
+        - Fanboy's Social Blocking List
+    validations:
+      required: false
+
+  - type: dropdown
+    id: filters_annoyances
+    attributes:
+      label: Annoyances
+      multiple: true
+      options:
+        - AdGuard Annoyances filter
+        - AdGuard Cookie Notices filter
+        - AdGuard Popups filter
+        - AdGuard Mobile App Banners filter
+        - AdGuard Other Annoyances filter
+        - AdGuard Widgets filter
+        - Adblock Warning Removal List
+        - Fanboy's Annoyances
+        - I don't care about cookies
+        - EasyList Cookie List
+        - Dandelion Sprout's Annoyances List
+    validations:
+      required: false
+
+  - type: dropdown
+    id: filters_security
+    attributes:
+      label: Security
+      multiple: true
+      options:
+        - Online Malicious URL Blocklist
+        - NoCoin Filter List
+    validations:
+      required: false
+
+  - type: dropdown
+    id: filters_regional
+    attributes:
+      label: Language-specific
+      multiple: true
+      options:
         - AdGuard Chinese filter
         - AdGuard Dutch filter
         - AdGuard French filter
@@ -70,22 +165,15 @@ body:
         - AdGuard Russian filter
         - AdGuard Spanish/Portuguese filter
         - AdGuard Turkish filter
-        - AdGuard Tracking Protection filter
-        - AdGuard URL Tracking filter
-        - AdGuard Social Media filter
-        - AdGuard Annoyances filter
-        - AdGuard Cookie Notices filter
-        - AdGuard Popups filter
-        - AdGuard Mobile App Banners filter
-        - AdGuard Widgets filter
-        - AdGuard Other Annoyances filter
-        - AdGuard DNS filter
-        - AdGuard Experimental filter
-        - Filter unblocking search ads and self-promotion
-        - ---Third-party filters---
-        - EasyList
+        - AdGuard Ukrainian filter
         - ABPindo
+        - ABPVN List
+        - Adblock List for Finland
+        - AdBlockID
         - Bulgarian list
+        - CJX's Annoyances List
+        - Dandelion Sprout's Nordic Filters
+        - Dandelion Sprout's Serbo-Croatian List
         - EasyList China
         - EasyList Czech and Slovak
         - EasyList Dutch
@@ -93,59 +181,95 @@ body:
         - EasyList Hebrew
         - EasyList Italy
         - EasyList Lithuania
+        - EasyList Polish
+        - EasyList Portuguese
+        - EasyList Spanish
+        - EasyList Thailand
+        - Estonian List
+        - Frellwit's Swedish Filter
+        - Greek AdBlock Filter
+        - Hungarian filter
+        - Icelandic ABP List
+        - IndianList
+        - KAD - Anti-Scam
         - Latvian List
+        - List-KR
         - Liste AR
         - Liste FR
-        - ROList
-        - EasyPrivacy
-        - Icelandic ABP List
-        - AdBlockID
-        - Greek AdBlock Filter
-        - Fanboy's Annoyances
-        - Fanboy's Social Blocking List
-        - Web Annoyances Ultralist
-        - Thai Ads Filters
-        - Hungarian filter
-        - Peter Lowe's Blocklist
-        - Xfiles
-        - Adblock Warning Removal List
-        - Online Malicious URL Blocklist
-        - RU AdList - Counters
-        - ABPVN List
-        - Fanboy's Enhanced Tracking List
+        - Macedonian adBlock Filters
         - Official Polish filters for AdBlock, uBlock Origin & AdGuard
-        - Polish GDPR-Cookies Filters
-        - Estonian List
-        - CJX's Annoyances List
-        - Polish Social Filters
-        - Fanboy's Anti-Facebook List
-        - List-KR
-        - xinggsf
-        - I don't care about cookies
-        - EasyList Spanish
-        - KAD - Anti-Scam
-        - Adblock List for Finland
-        - ROLIST2
-        - Iranian filter
-        - road-block
+        - Persian Blocker
         - Polish Annoyances Filters
         - Polish Anti Adblock Filters
-        - Fanboy's Anti-thirdparty Fonts
-        - EasyList Cookie List
-        - NoCoin Filter List
-        - Frellwit's Swedish Filter
-        - YousList
-        - AlleBlock
-        - EasyList Polish
         - Polish Anti-Annoying Special Supplement
-        - Dandelion Sprout's Nordic Filters
-        - Dandelion Sprout's Annoyances List
-        - Legitimate URL Shortener
-        - Dandelion Sprout's Serbo-Croatian List
-        - IndianList
-        - Others
+        - Polish GDPR-Cookies Filters
+        - Polish Social Filters
+        - road-block light
+        - ROList
+        - ROLIST2
+        - RU AdList - Counters
+        - Xfiles
+        - xinggsf
+        - YousList
     validations:
       required: false
+
+  - type: dropdown
+    id: filters_other
+    attributes:
+      label: Other
+      multiple: true
+      options:
+        - Filter unblocking search ads and self-promotion
+        - AdGuard DNS filter
+        - AdGuard Experimental filter
+    validations:
+      required: false
+
+  - type: dropdown
+    id: dns_protection
+    attributes:
+      label: What DNS server do you have?
+      description: |
+      multiple: false
+      options:
+        - DNS protection disabled
+        - Automatic DNS
+        - AdGuard DNS
+        - AdGuard DNS Family Protection
+        - AdGuard DNS Non-filtering
+        - Google DNS
+        - Cloudflare DNS
+        - Cloudflare for Families - Malware and Adult Content
+        - Cloudflare for Families - Malware Blocking
+        - Open DNS
+        - Open DNS with Family Shield
+        - Quad9
+        - Custom DNS
+    validations:
+      required: true
+
+  - type: textarea
+    id: custom_dns
+    attributes:
+      label: Custom DNS
+      description: Please provide a link to custom DNS you are using 
+    validations:
+      required: false
+
+  - type: dropdown
+    id: dns_protocol
+    attributes:
+      label: DNS protocol
+      description: 
+      multiple: false
+      options:
+        - Regular
+        - DNSCrypt
+        - DNS-over-HTTPS
+        - DNS-over-TLS
+        - DNS-over-QUIC
+
   - type: dropdown
     id: stealth
     attributes:
@@ -153,26 +277,22 @@ body:
       description: Select any of these options if you have them enabled in Stealth Mode. You can skip this step if it's not relevant.
       multiple: true
       options:
+        - Block trackers
+        - Remove tracking parameters from URLs
         - Hide your search queries
-        - Send Do-Not-Track signals
-        - Strip URLs of tracking parameters
+        - Ask websits not to track you
         - Self-destruction of third-party cookies
         - Self-destruction of first-party cookies
-        - Disable cache for third-party requests
+        - Block ETag and If-None-Match headers
         - Block the third-party Authorization header
         - Disable WebRTC
         - Block Push API
         - Block Location API
-        - Block Flash
-        - Disable Windows Telemetry
-        - Turn off Advertising ID
-        - Disable Microsoft Defender automatic samples submission
-        - Disable WAP Push Message Routing Service
         - Hide your Referrer from third-parties
         - Hide your User Agent
         - Hide your IP address
         - Remove X-client-Data header from HTTP request
-        - Protect from DPI
+        - Protect against DPI
   - type: textarea
     id: what-happened
     attributes:
