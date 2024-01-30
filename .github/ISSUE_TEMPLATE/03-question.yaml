@@ -1,7 +1,7 @@
 ---
 
 name: ❓ Question
-description: Create a feature request to help us improve AdGuard for Android.
+description: If the options above do not work for you
 labels: ['Question']
 body:
   - type: markdown

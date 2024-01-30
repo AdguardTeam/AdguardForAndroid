@@ -57,7 +57,7 @@ body:
       label: Root access
       description: Do you have root privileges?
       options:
-        - label: Yes, I have it.
+        - label: yes, I have it
     validations:
       required: false
 
