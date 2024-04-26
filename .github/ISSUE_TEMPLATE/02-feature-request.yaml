@@ -28,3 +28,9 @@ body:
       placeholder: A clear and concise description of any alternative solutions or features you've considered.
     validations:
       required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        Upvote [important issues](https://github.com/AdguardTeam/AdguardForAndroid/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+) with a :+1:
