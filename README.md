@@ -69,6 +69,8 @@ To get more information and to download AdGuard for Android, visit our website [
  </picture>
 </p>
 
+<p></p>
+
 <a id="contribution"></a>
 ## Contribution
 
