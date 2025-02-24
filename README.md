@@ -26,8 +26,8 @@
     <a href="https://github.com/AdguardTeam/AdguardForAndroid/issues?q=label%3A%22Feature%20request%22%20state%3Aopen+sort%3Areactions-%2B1-desc">
         <img src="https://img.shields.io/github/issues-search/AdguardTeam/AdguardForAndroid?color=seagreen&label=%F0%9F%9A%80%20Open%20feature%20requests&query=label%3A%22Feature%20request%22%20state%3Aopen" />
     </a>
-    <a href="https://github.com/AdguardTeam/AdguardForAndroid/issues?q=label%3A%22Feature%20request%22%20state%3Aclosed%20-label%3AQuestion%2CDuplicate%20label%3A%22Resolution%3A%20Done%22%2C%22Resolution%3A%20Fixed%22">
-        <img src="https://img.shields.io/github/issues-search/AdguardTeam/AdguardForAndroid?color=%2358A459&label=Implemented&query=label%3A%22Feature%20request%22%20state%3Aclosed%20-label%3AQuestion%2CDuplicate%20label%3A%22Resolution%3A%20Done%22%2C%22Resolution%3A%20Fixed%22" />
+    <a href="https://github.com/AdguardTeam/AdguardForAndroid/issues?q=sort%3Areactions-%2B1-desc%20label%3A%22Feature%20request%22%20label%3A%22Status%3A%20Resolved%22%2C%22Status%3A%20Closed%22%2C%22Status%3A%20Done%22%20%20-label%3A%22Resolution%3A%20Won%27t%20Do%22%2C%22Resolution%3A%20Won%27t%20Fix%22%2C%22Resolution%3A%20Duplicate%22%2C%22Resolution%3A%20Incomplete%22%20">
+        <img src="https://img.shields.io/github/issues-search/AdguardTeam/AdguardForAndroid?color=%2358A459&label=Implemented&query=sort%3Areactions-%2B1-desc%20label%3A%22Feature%20request%22%20label%3A%22Status%3A%20Resolved%22%2C%22Status%3A%20Closed%22%2C%22Status%3A%20Done%22%20%20-label%3A%22Resolution%3A%20Won%27t%20Do%22%2C%22Resolution%3A%20Won%27t%20Fix%22%2C%22Resolution%3A%20Duplicate%22%2C%22Resolution%3A%20Incomplete%22%20" />
     </a>
     <br />
     <a href="https://github.com/AdguardTeam/AdguardForAndroid/releases">
