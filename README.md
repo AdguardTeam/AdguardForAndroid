@@ -1,3 +1,4 @@
+&nbsp;
 <p align="center">
   <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.adguard.com/public/Adguard/Common/Logos/andr_dark.svg" width="300px" alt="AdGuard for Adndroid" />
@@ -15,30 +16,45 @@
     <a href="https://twitter.com/AdGuard">Twitter</a> |
     <a href="https://t.me/adguard_en">Telegram</a>
     <br /><br />
-    <a href="https://github.com/AdguardTeam/AdguardForAndroid/issues?q=is%3Aopen+label%3A%22Version%3A+AdGuard+v4.7%22+sort%3Acreated-desc">
-        <img src="https://img.shields.io/github/issues-search/AdguardTeam/AdguardForAndroid?color=red&label=%F0%9F%90%9B%20Open%20bugs&query=is%3Aopen%20sort%3Acreated-desc%20-label%3A%22Feature%20request%22" />
+    <a href="https://github.com/AdguardTeam/AdguardForAndroid/issues?q=sort%3Acreated-desc%20label%3ABug%20is%3Aopen%20-label%3A%22Status%3A%20Closed%22%2C%22Status%3A%20Done%22%2C%22Status%3A%20Resolved%22%20">
+        <img src="https://img.shields.io/github/issues-search/AdguardTeam/AdguardForAndroid?color=orangered&label=%F0%9F%90%9B%20Open%20bugs&query=sort%3Acreated-desc%20label%3ABug%20is%3Aopen%20-label%3A%22Status%3A%20Closed%22%2C%22Status%3A%20Done%22%2C%22Status%3A%20Resolved%22%20" />
     </a>
-    <a href="https://github.com/AdguardTeam/AdguardForAndroid/issues?q=sort%3Acreated-desc%20-label%3A%22Feature%20request%22%20label%3A%22Status%3A%20Closed%22%2C%22Status%3A%20Done%22%2C%22Status%3A%20Resolved%22%20-label%3ADuplicate%20label%3A%22Resolution%3A%20Done%22%2C%22Resolution%3A%20Fixed%22">
-        <img src="https://img.shields.io/github/issues-search/AdguardTeam/AdguardForAndroid?color=yellow&label=Resolved&query=sort%3Acreated-desc%20-label%3A%22Feature%20request%22%20label%3A%22Status%3A%20Closed%22%2C%22Status%3A%20Done%22%2C%22Status%3A%20Resolved%22%20-label%3ADuplicate%20label%3A%22Resolution%3A%20Done%22%2C%22Resolution%3A%20Fixed%22" />
-    </a>
-    <br />
-    <a href="https://github.com/AdguardTeam/AdguardForAndroid/issues?q=is%3Aopen+label%3A%22Feature+request%22+sort%3Areactions-%2B1-desc">
-        <img src="https://img.shields.io/github/issues-search/AdguardTeam/AdguardForAndroid?color=%2358A459&label=%F0%9F%9A%80%20Open%20feature%20requests&query=is%3Aopen%20label%3A%22Feature%20request%22%20sort%3Areactions-%2B1-desc" />
-    </a>
-    <a href="https://github.com/AdguardTeam/AdguardForAndroid/issues?q=sort%3Areactions-%2B1-desc%20label%3A%22Feature%20request%22%20label%3A%22Status%3A%20Resolved%22%2C%22Status%3A%20Closed%22%2C%22Status%3A%20Done%22%20">
-        <img src="https://img.shields.io/github/issues-search/AdguardTeam/AdguardForAndroid?color=green&label=Implemented&query=sort%3Areactions-%2B1-desc%20label%3A%22Feature%20request%22%20label%3A%22Status%3A%20Resolved%22%2C%22Status%3A%20Closed%22%2C%22Status%3A%20Done%22%20" />
+    <a href="https://github.com/AdguardTeam/AdguardForAndroid/issues?q=sort%3Acreated-desc%20label%3ABug%20label%3A%22Status%3A%20Resolved%22%2C%22Status%3A%20Closed%22%2C%22Status%3A%20Done%22%20%20-label%3A%22Resolution%3A%20Won%27t%20Do%22%2C%22Resolution%3A%20Won%27t%20Fix%22%2C%22Resolution%3A%20Duplicate%22%2C%22Resolution%3A%20Incomplete%22%2C%22Resolution%3A%20Cannot%20Reproduce%22%20">
+        <img src="https://img.shields.io/github/issues-search/AdguardTeam/AdguardForAndroid?color=goldenrod&label=Resolved&query=sort%3Acreated-desc%20label%3ABug%20label%3A%22Status%3A%20Resolved%22%2C%22Status%3A%20Closed%22%2C%22Status%3A%20Done%22%20%20-label%3A%22Resolution%3A%20Won%27t%20Do%22%2C%22Resolution%3A%20Won%27t%20Fix%22%2C%22Resolution%3A%20Duplicate%22%2C%22Resolution%3A%20Incomplete%22%2C%22Resolution%3A%20Cannot%20Reproduce%22%20" />
     </a>
     <br />
-    <a
+    <a href="https://github.com/AdguardTeam/AdguardForAndroid/issues?q=label%3A%22Feature%20request%22%20state%3Aopen%20sort%3Areactions-%2B1-desc%20-label%3A%22Status%3A%20Closed%22%2C%22Status%3A%20Done%22%2C%22Status%3A%20Resolved%22%20">
+        <img src="https://img.shields.io/github/issues-search/AdguardTeam/AdguardForAndroid?color=seagreen&label=%F0%9F%9A%80%20Open%20feature%20requests&query=label%3A%22Feature%20request%22%20state%3Aopen%20sort%3Areactions-%2B1-desc%20-label%3A%22Status%3A%20Closed%22%2C%22Status%3A%20Done%22%2C%22Status%3A%20Resolved%22%20" />
     </a>
+    <a href="https://github.com/AdguardTeam/AdguardForAndroid/issues?q=sort%3Areactions-%2B1-desc%20label%3A%22Feature%20request%22%20label%3A%22Status%3A%20Resolved%22%2C%22Status%3A%20Closed%22%2C%22Status%3A%20Done%22%20-label%3A%22Resolution%3A%20Won%27t%20Do%22%2C%22Resolution%3A%20Won%27t%20Fix%22%2C%22Resolution%3A%20Duplicate%22%2C%22Resolution%3A%20Incomplete%22%2C%22Resolution%3A%20Cannot%20Reproduce%22%20">
+        <img src="https://img.shields.io/github/issues-search/AdguardTeam/AdguardForAndroid?color=%2358A459&label=Implemented&query=sort%3Areactions-%2B1-desc%20label%3A%22Feature%20request%22%20label%3A%22Status%3A%20Resolved%22%2C%22Status%3A%20Closed%22%2C%22Status%3A%20Done%22%20-label%3A%22Resolution%3A%20Won%27t%20Do%22%2C%22Resolution%3A%20Won%27t%20Fix%22%2C%22Resolution%3A%20Duplicate%22%2C%22Resolution%3A%20Incomplete%22%2C%22Resolution%3A%20Cannot%20Reproduce%22%20" />
+    </a>
+    <br />
     <a href="https://github.com/AdguardTeam/AdguardForAndroid/releases">
         <img src="https://img.shields.io/github/v/release/AdguardTeam/AdguardForAndroid?color=blue&display_name=release&label=Release" alt="Latest release" />
     </a>
     <a href="https://github.com/AdguardTeam/AdguardForAndroid/releases">
-        <img src="https://img.shields.io/github/v/release/AdguardTeam/AdguardForAndroid?color=blue&display_name=release&label=Testing&include_prereleases" alt="Beta version>" />
+        <img src="https://img.shields.io/github/v/release/AdguardTeam/AdguardForAndroid?color=dodgerblue&display_name=release&label=Testing&include_prereleases" alt="Beta version>" />
     </a>
+  </p>
+
+  &nbsp;
+  <p align="center">
+    <a href="https://agrd.io/github_huawei_adblocker">
+      <img src="https://cdn.adtidy.org/content/github/badges/AppGalleryStore.png" alt="Explore it on AppGallery" height="40" />
+    </a>
+    &nbsp;
+    <a href="https://agrd.io/github_xiaomi_adblocker">
+      <img src="https://cdn.adtidy.org/content/github/badges/GetAppsStore.png" alt="Get it on Mi App Mall" height="40" />
+    </a>
+    &nbsp;
+    <a href="https://agrd.io/github_samsung_adblocker">
+      <img src="https://cdn.adtidy.org/content/github/badges/GalaxyStore.png" alt="Available on Galaxy Store" height="40" />
+    </a>
+  </p>
 
 
+&nbsp;
 * [Contribution](#contribution)
   * [How to report an issue](#issue)
   * [Translating AdGuard](#contribution-translating)
