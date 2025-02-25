@@ -16,8 +16,8 @@
     <a href="https://twitter.com/AdGuard">Twitter</a> |
     <a href="https://t.me/adguard_en">Telegram</a>
     <br /><br />
-    <a href="https://github.com/AdguardTeam/AdguardForAndroid/issues?q=is%3Aopen%20label%3ABug%20%20sort%3Acreated-desc%20">
-        <img src="https://img.shields.io/github/issues-search/AdguardTeam/AdguardForAndroid?color=orangered&label=%F0%9F%90%9B%20Open%20bugs&query=is%3Aopen%20label%3ABug%20%20sort%3Acreated-desc%20" />
+    <a href="https://github.com/AdguardTeam/AdguardForAndroid/issues?q=sort%3Acreated-desc%20label%3ABug%20is%3Aopen%20-label%3A%22Status%3A%20Closed%22%2C%22Status%3A%20Done%22%2C%22Status%3A%20Resolved%22%20">
+        <img src="https://img.shields.io/github/issues-search/AdguardTeam/AdguardForAndroid?color=orangered&label=%F0%9F%90%9B%20Open%20bugs&query=sort%3Acreated-desc%20label%3ABug%20is%3Aopen%20-label%3A%22Status%3A%20Closed%22%2C%22Status%3A%20Done%22%2C%22Status%3A%20Resolved%22%20" />
     </a>
     <a href="https://github.com/AdguardTeam/AdguardForAndroid/issues?q=sort%3Acreated-desc%20label%3ABug%20label%3A%22Status%3A%20Closed%22%2C%22Status%3A%20Done%22%2C%22Status%3A%20Resolved%22%20-label%3ADuplicate%20label%3A%22Resolution%3A%20Done%22%2C%22Resolution%3A%20Fixed%22%20">
         <img src="https://img.shields.io/github/issues-search/AdguardTeam/AdguardForAndroid?color=goldenrod&label=Resolved&query=sort%3Acreated-desc%20label%3ABug%20label%3A%22Status%3A%20Closed%22%2C%22Status%3A%20Done%22%2C%22Status%3A%20Resolved%22%20-label%3ADuplicate%20label%3A%22Resolution%3A%20Done%22%2C%22Resolution%3A%20Fixed%22%20" />
