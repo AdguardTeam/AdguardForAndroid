@@ -72,16 +72,16 @@ To get more information and to download AdGuard for Android, visit our website [
 
 <p align="center">
 <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.adguard.com/content/github/ad_blocker/android/dark_home4.5.png" width="250">
-   <img src="https://cdn.adguard.com/content/github/ad_blocker/android/home4.5.png" width="250">
+   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.adguard.com/content/github/ad_blocker/android/dark_home_4.15.png" width="250">
+   <img src="https://cdn.adguard.com/content/github/ad_blocker/android/home_4.15.png" width="250">
  </picture>
 <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.adguard.com/content/github/ad_blocker/android/dark_protection4.5.png" width="250">
-   <img src="https://cdn.adguard.com/content/github/ad_blocker/android/protection4.5.png" width="250">
+   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.adguard.com/content/github/ad_blocker/android/dark_protection_4.15.png" width="250">
+   <img src="https://cdn.adguard.com/content/github/ad_blocker/android/protection_4.15.png" width="250">
  </picture>
 <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.adguard.com/content/github/ad_blocker/android/dark_settings4.5.png" width="250">
-   <img src="https://cdn.adguard.com/content/github/ad_blocker/android/settings4.5.png" width="250">
+   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.adguard.com/content/github/ad_blocker/android/dark_settings_4.15.png" width="250">
+   <img src="https://cdn.adguard.com/content/github/ad_blocker/android/settings_4.15.png" width="250">
  </picture>
 </p>
 
