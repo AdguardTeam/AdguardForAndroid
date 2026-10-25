@@ -2,6 +2,10 @@ name: 🌱 Feature request
 description: If you know how AdGuard for Android can be improved
 labels: "Feature request"
 body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to fill out this form!
+
   - type: textarea
     id: what-happened
     attributes:
@@ -10,20 +14,20 @@ body:
       placeholder: Is your feature request related to a problem? Please add a clear and concise description of what the problem is.
     validations:
       required: true
-      
+
   - type: textarea
     id: how_it_should_be
     attributes:
-      label: Proposed solution
+      label: Proposed Solution
       description:
       placeholder: Describe the solution you'd like in a clear and concise manner.
     validations:
       required: true
-      
+
   - type: textarea
     id: additional
     attributes:
-      label: Alternative solution
+      label: Alternative Solution
       description:
       placeholder: A clear and concise description of any alternative solutions or features you've considered.
     validations:
