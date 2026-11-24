@@ -21,7 +21,7 @@ body:
     attributes:
       label: AdGuard version
       description: What version of our application are you running?
-      placeholder: For example, 4.3.1
+      placeholder: For example, 4.16.1
     validations:
       required: true
 
@@ -109,11 +109,10 @@ body:
       options:
         - AdGuard Tracking Protection filter
         - AdGuard URL Tracking filter
+        - AdGuard Mail Tracking Protection filter
         - EasyPrivacy
         - Legitimate URL Shortener
         - Peter Lowe's Blocklist
-        - Fanboy's Anti-Facebook List
-        - Fanboy's Anti-thirdparty Fonts
     validations:
       required: false
 
@@ -134,7 +133,6 @@ body:
       label: Annoyances
       multiple: true
       options:
-        - AdGuard Annoyances filter
         - AdGuard Cookie Notices filter
         - AdGuard Popups filter
         - AdGuard Mobile App Banners filter
@@ -142,9 +140,9 @@ body:
         - AdGuard Widgets filter
         - Adblock Warning Removal List
         - Fanboy's Annoyances
-        - I don't care about cookies
+        - Web Annoyances Ultralist
         - EasyList Cookie List
-        - Dandelion Sprout's Annoyances List
+        - Stevo's AI Blocklist
     validations:
       required: false
 
@@ -155,7 +153,10 @@ body:
       multiple: true
       options:
         - Online Malicious URL Blocklist
-        - NoCoin Filter List
+        - Phishing URL Blocklist
+        - Scam Blocklist by DurableNapkin
+        - uBlock Origin - Badware risks
+        - Dandelion Sprout's Anti-Malware List
     validations:
       required: false
 
@@ -169,6 +170,7 @@ body:
         - AdGuard Dutch filter
         - AdGuard French filter
         - AdGuard German filter
+        - AdGuard Polish filter
         - AdGuard Japanese filter
         - AdGuard Russian filter
         - AdGuard Spanish/Portuguese filter
@@ -199,16 +201,16 @@ body:
         - Hungarian filter
         - Icelandic ABP List
         - IndianList
+        - AdGuard Italian
         - KAD - Anti-Scam
         - Latvian List
-        - List-KR
+        - filterslist-KO Classic filter list
         - Liste AR
         - Liste FR
         - Macedonian adBlock Filters
         - Official Polish filters for AdBlock, uBlock Origin & AdGuard
         - Persian Blocker
         - Polish Annoyances Filters
-        - Polish Anti Adblock Filters
         - Polish Anti-Annoying Special Supplement
         - Polish GDPR-Cookies Filters
         - Polish Social Filters
@@ -229,8 +231,8 @@ body:
       multiple: true
       options:
         - Filter unblocking search ads and self-promotion
-        - AdGuard DNS filter
         - AdGuard Experimental filter
+        - Fanboy's Anti-thirdparty Fonts
     validations:
       required: false
       
@@ -289,7 +291,7 @@ body:
         - Block trackers
         - Remove tracking parameters from URLs
         - Hide your search queries
-        - Ask websits not to track you
+        - Ask websites not to track you
         - Self-destruction of third-party cookies
         - Self-destruction of first-party cookies
         - Block ETag and If-None-Match headers
